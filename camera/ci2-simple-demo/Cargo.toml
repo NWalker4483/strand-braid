@@ -14,6 +14,7 @@ ci2.workspace = true
 env_logger.workspace = true
 ci2-pyloncxx = { workspace = true, optional = true }
 ci2-vimba = { workspace = true, optional = true }
+ci2-nokhwa = { workspace = true, optional = true }
 lazy_static.workspace = true
 
 [features]
@@ -22,3 +23,4 @@ default = ["backend_pyloncxx"]
 # Backend choice
 backend_pyloncxx = ["ci2-pyloncxx"]
 backend_vimba = ["ci2-vimba"]
+backend_nokhwa = ["ci2-nokhwa"]

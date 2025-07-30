@@ -1,5 +1,5 @@
 [package]
-name = "strand-cam-pylon"
+name = "strand-cam-nokhwa"
 version = "0.12.0-alpha.9" # braid release synchronized
 edition = "2021"
 rust-version = "1.76"
@@ -13,15 +13,9 @@ ipp-sys = { workspace = true, optional = true }
 
 imops = { workspace = true, optional = true }
 ci2-async.workspace = true
-ci2-pyloncxx.workspace = true
+ci2-nokhwa.workspace = true
 
 strand-cam.workspace = true
 
 [features]
 default = ["strand-cam/bundle_files"]
-# export MACOSX_DEPLOYMENT_TARGET=15.0
-# Add the correct RPATH (try the framework root)
-# install_name_tool -add_rpath "/Library/Frameworks" ../../target/release/strand-cam-pylon
-# [target.aarch64-apple-darwin]
-
-# rustflags = ["-C", "link-arg=-mmacosx-version-min=15.0"]

@@ -1,5 +1,4 @@
 [workspace]
-resolver = "2"
 members = [
     "ads-apriltag",
     "ads-apriltag/apriltag-track-movie",
@@ -29,6 +28,7 @@ members = [
     "camera/ci2-async",
     "camera/ci2-cli",
     "camera/ci2-pylon-types",
+    "camera/ci2-nokhwa",
     "camera/ci2-pyloncxx",
     "camera/ci2-simple-async-demo",
     "camera/ci2-simple-demo",
@@ -103,6 +103,7 @@ members = [
     "strand-cam/strand-cam-offline-checkerboards",
     "strand-cam/strand-cam-pylon",
     "strand-cam/strand-cam-pylon-gui",
+    "strand-cam/strand-cam-nokhwa",
     "strand-cam/strand-cam-vimba",
     "strand-cam/yew_frontend",
     "strand-cam-csv-config-types",
@@ -123,6 +124,7 @@ members = [
     "zip-or-dir",
     "zip-or-dir/dir2zip",
 ]
+resolver = "2"
 
 exclude = [
     "fastimage",
@@ -297,6 +299,7 @@ ci2-pyloncxx = { path = "camera/ci2-pyloncxx" }
 strand-cam-remote-control = { path = "camera/strand-cam-remote-control", version = "0.1.0" }
 strand-cam-types = { path = "camera/strand-cam-types", version = "0.1.0" }
 ci2-vimba = { path = "camera/ci2-vimba" }
+ci2-nokhwa = { path = "camera/ci2-nokhwa" }
 ci2-vimba-types = { path = "camera/ci2-vimba-types" }
 csv-eof = { path = "utils/csv-eof" }
 download-verify = { path = "utils/download-verify" }

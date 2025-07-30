@@ -427,6 +427,8 @@ pub enum StartCameraBackend {
     Pylon,
     /// Start a Vimba camera locally using `strand-cam-vimba` program.
     Vimba,
+    /// Start a Nokhwa camera locally using `strand-cam-nokhwa` program.
+    Nokhwa,
 }
 
 impl StartCameraBackend {
@@ -436,6 +438,7 @@ impl StartCameraBackend {
             StartCameraBackend::Remote => None,
             StartCameraBackend::Pylon => Some("strand-cam-pylon"),
             StartCameraBackend::Vimba => Some("strand-cam-vimba"),
+            StartCameraBackend::Nokhwa => Some("strand-cam-nokhwa"),
         }
     }
 }
