@@ -81,6 +81,8 @@ cd strand-braid # now in /path/to/strand-braid
 
 ### Strand Camera
 
+strand-cam-nokhwa % cargo run --release --features strand-cam/checkercal --features strand-cam/flydratrax --features strand-cam/use_ipp --features ipp-sys/2019
+
 First, build the browser user interface (BUI) for Strand Camera. This will build
 files in `strand-cam/yew_frontend/pkg` which get included in the Strand Cam
 executable:

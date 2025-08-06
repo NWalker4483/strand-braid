@@ -12,12 +12,21 @@
 [mainbrain]
 http_api_server_addr = "0.0.0.0:44444"
 
-# [[cameras]]
-# Each camera `name` is computed from its vendor and serial number.
-# name = "FaceTime HD Camera-0"
-# start_backend = "pylon"       # "nokhwa"
-[[cameras]]
-name = "Basler-0815-0000"
+output_base_dirname = "DATA"
 
+cal_fname = "test.xml"
 [[cameras]]
-name = "Basler-0815-0001"
+name = "FaceTime HD Camera-0"
+start_backend = "nokhwa"
+
+[trigger]
+framerate = 50.0
+trigger_type = "FakeSync"
+# cal_fname = "blah.xml"
+
+# Each camera `name` is computed from its vendor and serial number.
+# [[cameras]]
+# name = "Basler-0815-0000"
+
+# [[cameras]]
+# name = "Basler-0815-0001"

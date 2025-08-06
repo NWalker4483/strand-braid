@@ -1,0 +1,24 @@
+<multi_camera_reconstructor>
+  <single_camera_calibration>
+    <cam_id>FaceTime HD Camera-0</cam_id>
+    <calibration_matrix>3.503394e+03 1.852959e+03 -4.077328e+02 -6.930534e+02; -1.114729e+03
+      3.308500e+03 2.263255e+03 -4.524345e+02; 8.686018e-02 1.812134e-01 6.356583e-01 -9.554990e-01</calibration_matrix>
+    <resolution>1280 1024</resolution>
+    <non_linear_parameters>
+      <fc1>1242.802542</fc1>
+      <fc2>1245.499404</fc2>
+      <cc1>641.032692</cc1>
+      <cc2>526.990702</cc2>
+      <k1>-0.360141</k1>
+      <k2>0.164106</k2>
+      <p1>0.000615</p1>
+      <p2>0.001059</p2>
+      <alpha_c>0.0</alpha_c>
+      <fc1p>1242.802542</fc1p>
+      <fc2p>1245.499404</fc2p>
+      <cc1p>641.032692</cc1p>
+      <cc2p>526.990702</cc2p>
+    </non_linear_parameters>
+  </single_camera_calibration>
+ 
+</multi_camera_reconstructor>
